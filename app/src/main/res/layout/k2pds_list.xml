@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:id="@+id/layout">
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins"
+        android:paddingLeft="2dp"
+        android:text="1."
+        android:textColor="#333333" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txt_hino_kb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.34"
+                android:fontFamily="@font/poppins"
+                android:text="I352"
+                android:textColor="#333333" />
+
+            <TextView
+                android:id="@+id/txt_kb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.66"
+                android:fontFamily="@font/poppins"
+                android:text="41110-0KA90-00"
+                android:textColor="#333333" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_partname"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="CARRIR ASSY DIFFERENTIAL"
+            android:textColor="#6C757D"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_k2_qty"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins"
+        android:text="10"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/txt_total_qty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins"
+        android:text="10"
+        android:textColor="#333333" />
+
+</LinearLayout>

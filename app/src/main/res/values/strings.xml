@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tacoma</string>
+
+    <string name="login_toolbar">Tacoma : FACTORY 3</string>
+    <string name="t1_toolbar">T1 - Supply Parts</string>
+    <string name="t2_toolbar">T2 - Picking Parts</string>
+    <string name="t3_toolbar">T3 - QC</string>
+    <string name="pds_toolbar">PDS: 1B HMT1BD8A2092</string>
+    <string name="pick_complete">Picking Completed</string>
+    <string name="qc_complete">QC Completed</string>
+    <string name="receive">OK. You’ve received new parts.</string>
+
+</resources>

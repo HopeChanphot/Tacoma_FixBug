@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_round_corner">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning!"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PDS NOT FOUND"
+        android:textSize="35sp"
+        android:textColor="#ED2412"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="OK"
+            android:backgroundTint="#99CC66"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
